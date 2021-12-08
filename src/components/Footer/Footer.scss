@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--dracula-orchid);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    address {
+        padding: .3rem;
+
+        font-weight: 300;
+        color: var(--city-lights);
+
+        margin: 0;
+
+        span {
+            color: var(--mint-leaf);
+            font-weight: 500;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        justify-content: flex-end;
+        padding-right: 1rem;
+    }
+}

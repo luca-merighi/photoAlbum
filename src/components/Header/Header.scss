@@ -1,0 +1,53 @@
+.header {
+    background-color: var(--dracula-orchid);
+    height: 80px;
+    width: 100%;
+    padding-left: 1rem;
+    
+    .nav {
+        height: 100%;
+        gap: .5rem;
+
+        .homeLink {
+            text-decoration: none;
+        }
+
+        h1 {
+            color: var(--city-lights);
+            text-decoration: none;
+            font-size: 1.5rem;
+
+            gap: .5rem;
+            margin: 0;
+    
+            span {
+                color: var(--electron-blue);
+            }
+    
+            .material-icons-round {
+                font-size: 1.4rem;
+            }
+        }
+
+        .divider {
+            height: 40%;
+            width: 3px;
+            background-color: var(--dark-sky);
+        }
+
+        .navigation {
+            h3 {
+                color: var(--mint-leaf);
+                font-size: 1.2rem;
+
+                gap: 8px;
+                margin: 0;
+
+                .material-icons-round {
+                    font-size: 1.35rem;
+                }
+            }
+        }
+    }
+}
+
