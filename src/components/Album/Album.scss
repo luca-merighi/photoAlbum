@@ -86,7 +86,14 @@
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
+    .albumContainer {
+        width: 85vw;
+    }
+}
+
+
+@media (min-width: 1360px) {
     .albumContainer {
         width: 90vw;
         align-items: start;
